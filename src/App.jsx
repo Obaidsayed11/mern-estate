@@ -4,12 +4,14 @@ import SignUp from  "c:/Users/Night Agent/Desktop/mern-estate/client/src/pages/S
 import About from './pages/About';
 import Profile from './pages/Profile';
 import Signin from './pages/signin';
+import Header from './componenets/Header';
 
 
 
 export default function App() {
   return (
     <BrowserRouter>
+    <Header/>
     <Routes>
        <Route path="/" element={<Home />} />
        <Route path="/signin" element={<Signin />} />
